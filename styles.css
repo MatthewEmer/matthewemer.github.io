@@ -1,0 +1,67 @@
+/* General Styles */
+html {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/**/
+
+/* Header Styles */
+h1 {
+    background-color: blue;
+    color: white;
+    padding: 2mm;
+    vertical-align: middle;
+}
+
+h3 {
+    color: darkblue;
+    font-style: italic;
+}
+/**/
+
+/* Table Styles */
+table {
+    border: 0.75mm solid black;
+    border-collapse: collapse;
+    padding-right: 2mm;
+    padding-left: 2mm;
+}
+
+th {
+    padding-bottom: 1mm;
+    border-bottom: 0.5mm solid black;
+}
+
+td {
+    padding: 2mm;
+    text-align: center;
+}
+/**/
+
+/* List Styles */
+ol {
+    list-style-type: upper-roman;
+}
+li {
+    padding-bottom: 1mm;
+}
+/**/
+
+/* ID and Class Styles */
+#clubLogo {
+    width: 5%;
+}
+
+#topOfTheTable {
+    border-bottom: 0.6mm dashed grey;
+    color: rgb(156, 119, 25);
+}
+
+.tableText {
+    text-align: left;
+}
+
+.inlineLink {
+    display: inline;
+    text-decoration: none;
+}
+/**/
